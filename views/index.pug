@@ -1,0 +1,55 @@
+doctype html 
+html 
+    head 
+        title The Best Dance Academy
+        style
+            include ../static/style.css
+    body 
+        nav#navbar
+            ul 
+                div#logo
+                    img(src="/static/main-logo.png", alt="Logo")
+                    | MDA
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Services]
+                li #[a(href="/") Class Info]
+                li #[a(href="/") Contact Us]
+
+        section#introsection
+            div Welome to <b>Magdum</b> Dance Academy 
+            div Eat Dance Sleep Repeat
+        section#missionsection
+            h3  Our Mission
+            div.card
+                h2 Dance Perfection
+                div.card-box
+                    div.card-img
+                        img(src="/static/women-logo.png", alt="image")
+                    p How you can dance ! this is not important, the important is Do you like Dance. 
+                    
+            div.card
+                h2 Dance you like
+                div.card-box
+                    div.card-img
+                        img(src="/static/couple-logo.png", alt="image")
+                    p How you can dance ! this is not important, the important is Do you like Dance. 
+                        
+            div.card
+                h2 Expert Teaching
+                div.card-box
+                    div.card-img
+                        img(src="/static/logo5.png", alt="image")
+                    p How you can dance ! this is not important, the important is Do you like Dance. 
+                        
+        section#sponsersection
+            h3  Our Sponsors
+            div#sponserslogo
+                img(src="/static/google-logo.png", alt="google log" Class="simages")
+                img(src="/static/microsoft-logo.png", alt="google log" Class="simages" id="microsoft")
+                img(src="/static/infosys-logo.png", alt="google log" Class="simages")
+                img(src="/static/ibm-logo.png", alt="google log" Class="simages")
+        section#footersection
+            div @copyrights | All rights riserved 2022
+        script 
+            include ../static/index.js 

@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    margin: 0px 14px;
+    margin-right: 50px;
+}
+#logo img{
+    height: 55px;
+    margin-right: 10px;
+    filter: invert(1);
+}
+#navbar {
+    background-color: gray;
+    padding: 15px;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 8px;
+    margin: 0px 3px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#navbar li a:hover{
+    box-shadow: 7px 5px;
+    color: black;
+    background-color: white;
+    margin: 0.5em;
+}
+#introsection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: cursive;
+    background: center/contain center no-repeat url("bg.jpg") ;
+    background-color: red;
+    height: 250px;
+}
+.card-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-img img{
+    height: 151px;
+    padding: 0px 14px;
+    margin: 5px 0px;
+}
+.card-box p{
+    margin: 13px;
+}
+#sponsersection{
+    color: white;
+    background-color: #343432;
+    height: 200px;
+    padding-top: 20px;
+    font-family: cursive;
+}
+#sponsersection h3{
+    
+    text-align: center;
+    font-size: 35px;
+}
+#sponserslogo{
+    height: 100px;
+    max-width: 1000px;
+    margin: auto;
+}
+.simages{
+    height: 80%;
+    margin: 20px;
+}
+#missionsection{
+    color: white;
+    background-color: #85af30;
+    height: 300px;
+    padding-top: 20px;
+    font-family: cursive;
+}
+#missionsection h3{
+    
+    text-align: center;
+    font-size: 35px;
+}
+#microsoft{
+    height: 85px;
+}
+.card{
+    border: 2px solid black;
+    margin: 10px 55px;
+    height: 200px;
+    display: inline-block;
+    width: 25%;
+    border-radius: 10px;
+}
+.card h2{
+    text-align: center;
+}
+#footersection{
+    color : white;
+    text-align: center;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 65px;
+    display: flex;
+}
